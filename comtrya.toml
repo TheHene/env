@@ -1,40 +1,47 @@
 [[actions]]
 action = "file.remove"
-target = "~/.config/nvim/*"
+target = "~/.config/nvim/"
 
 action = "file.link"
-from = "./nvim/*"
-to = "~/.config/nvim"
+from = "./nvim/"
+to = "~/.config/nvim/"
 
 action = "file.remove"
-target = "~/.config/kitty/*"
+target = "~/.config/kitty/"
 
 action = "file.link"
-from = "./kitty/*"
+from = "./kitty/"
 to = "~/.config/kitty/"
 
 action = "file.remove"
-target = "~/.config/wofi/*"
+target = "~/.config/wofi/"
 
 action = "file.link"
-from = "./wofi/*"
+from = "./wofi/"
 to = "~/.config/wofi/"
 
 action = "file.remove"
-target = "~/.config/waybar/*"
+target = "~/.config/waybar/"
 
 action = "file.link"
-from = "./waybar/*"
+from = "./waybar/"
 to = "~/.config/waybar/"
 
 action = "file.link"
-from = "./colors/*"
+from = "./colors/"
 to = "~/.config/colors/"
 
 action = "file.remove"
-target = "~/.config/hypr/*"
+target = "~/.config/hypr/"
 
 action = "file.link"
-from = "./hyprland/*"
+from = "./hyprland/"
 to = "~/.config/hypr/"
+
+action = "file.remove"
+target = "~/.config/swaync/"
+
+action = "file.link"
+from = "./swaync/"
+to = "~/.config/swaync/"
 
