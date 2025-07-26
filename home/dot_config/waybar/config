@@ -3,11 +3,11 @@
         "position": "top",
         "reload_style_on_change": true,
         "modules-left": ["custom/notification","clock","custom/pacman","tray"],
-        "modules-center": ["hyprland/workspaces"],
+        "modules-center": ["niri/workspace"],
         "modules-right": ["group/expand","bluetooth","network","battery"],
 
 
-        "hyprland/workspaces": {
+        "niri/workspace": {
             "format": "{icon}",
             "format-icons": {
                 "active": "",
@@ -25,7 +25,7 @@
             "escape": true
         },
         "clock": {
-            "format": "{:%I:%M:%S %p} ",
+            "format": "{:%H:%M:%S} ",
             "interval": 1,   
             "tooltip-format": "<tt>{calendar}</tt>",
             "calendar": {
@@ -45,7 +45,7 @@
             "tooltip-format-disconnected": "Error",
             "tooltip-format-wifi": "{essid} ({signalStrength}%) ",
             "tooltip-format-ethernet": "{ifname} 🖧 ",
-            "on-click": "kitty nmtui"
+            "on-click": "alacritty nmtui"
         },
         "bluetooth": {
             "format-on": "󰂯",

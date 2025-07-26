@@ -20,4 +20,4 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PS1
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$HOME/usr/bin/curl:$HOME/usr/bin/unzip:$PATH"
-
+export DISPLAY=:0
