@@ -1,0 +1,8 @@
+[window]
+decorations = "None"
+opacity = 0.95
+padding = { x = 2, y = 2 }
+
+[font]
+normal = { family = "RobotoMono nerd font", style = "Regular"}
+size = 12
